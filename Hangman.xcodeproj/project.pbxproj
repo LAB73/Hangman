@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C3C45BD21AB0E1D0040DCE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C45BC21AB0E1D0040DCE9 /* AppDelegate.swift */; };
+		3C3C45BF21AB0E1D0040DCE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C45BE21AB0E1D0040DCE9 /* ViewController.swift */; };
+		3C3C45C221AB0E1D0040DCE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C45C021AB0E1D0040DCE9 /* Main.storyboard */; };
+		3C3C45C421AB0E1E0040DCE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C45C321AB0E1E0040DCE9 /* Assets.xcassets */; };
+		3C3C45C721AB0E1E0040DCE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C45C521AB0E1E0040DCE9 /* LaunchScreen.storyboard */; };
+		3C3C45D221AB0E1F0040DCE9 /* HangmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C45D121AB0E1F0040DCE9 /* HangmanTests.swift */; };
+		3C3C45DD21AB0E1F0040DCE9 /* HangmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C45DC21AB0E1F0040DCE9 /* HangmanUITests.swift */; };
+		3C3C45E221AB0E1F0040DCE9 /* Hangman WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3C3C45E121AB0E1F0040DCE9 /* Hangman WatchKit App.app */; };
+		3C3C45E821AB0E1F0040DCE9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C45E621AB0E1F0040DCE9 /* Interface.storyboard */; };
+		3C3C45EA21AB0E1F0040DCE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C45E921AB0E1F0040DCE9 /* Assets.xcassets */; };
+		3C3C45F121AB0E1F0040DCE9 /* Hangman WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3C3C45F021AB0E1F0040DCE9 /* Hangman WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3C3C45F621AB0E1F0040DCE9 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C45F521AB0E1F0040DCE9 /* InterfaceController.swift */; };
+		3C3C45F821AB0E1F0040DCE9 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C45F721AB0E1F0040DCE9 /* ExtensionDelegate.swift */; };
+		3C3C45FA21AB0E1F0040DCE9 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C45F921AB0E1F0040DCE9 /* NotificationController.swift */; };
+		3C3C45FC21AB0E1F0040DCE9 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C45FB21AB0E1F0040DCE9 /* ComplicationController.swift */; };
+		3C3C45FE21AB0E200040DCE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C45FD21AB0E200040DCE9 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C3C45CE21AB0E1F0040DCE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C3C45B121AB0E1D0040DCE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C3C45B821AB0E1D0040DCE9;
+			remoteInfo = Hangman;
+		};
+		3C3C45D921AB0E1F0040DCE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C3C45B121AB0E1D0040DCE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C3C45B821AB0E1D0040DCE9;
+			remoteInfo = Hangman;
+		};
+		3C3C45E321AB0E1F0040DCE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C3C45B121AB0E1D0040DCE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C3C45E021AB0E1F0040DCE9;
+			remoteInfo = "Hangman WatchKit App";
+		};
+		3C3C45F221AB0E1F0040DCE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C3C45B121AB0E1D0040DCE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C3C45EF21AB0E1F0040DCE9;
+			remoteInfo = "Hangman WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C3C460621AB0E200040DCE9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3C3C45F121AB0E1F0040DCE9 /* Hangman WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3C460A21AB0E200040DCE9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3C3C45E221AB0E1F0040DCE9 /* Hangman WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C3C45B921AB0E1D0040DCE9 /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3C45BC21AB0E1D0040DCE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C3C45BE21AB0E1D0040DCE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C3C45C121AB0E1D0040DCE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C3C45C321AB0E1E0040DCE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C3C45C621AB0E1E0040DCE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C3C45C821AB0E1E0040DCE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C3C45CD21AB0E1F0040DCE9 /* HangmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3C45D121AB0E1F0040DCE9 /* HangmanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanTests.swift; sourceTree = "<group>"; };
+		3C3C45D321AB0E1F0040DCE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C3C45D821AB0E1F0040DCE9 /* HangmanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangmanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3C45DC21AB0E1F0040DCE9 /* HangmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanUITests.swift; sourceTree = "<group>"; };
+		3C3C45DE21AB0E1F0040DCE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C3C45E121AB0E1F0040DCE9 /* Hangman WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hangman WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3C45E721AB0E1F0040DCE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3C3C45E921AB0E1F0040DCE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C3C45EB21AB0E1F0040DCE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C3C45F021AB0E1F0040DCE9 /* Hangman WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hangman WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3C45F521AB0E1F0040DCE9 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3C3C45F721AB0E1F0040DCE9 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3C3C45F921AB0E1F0040DCE9 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3C3C45FB21AB0E1F0040DCE9 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3C3C45FD21AB0E200040DCE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C3C45FF21AB0E200040DCE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C3C460021AB0E200040DCE9 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C3C45B621AB0E1D0040DCE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3C45CA21AB0E1F0040DCE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3C45D521AB0E1F0040DCE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3C45ED21AB0E1F0040DCE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C3C45B021AB0E1D0040DCE9 = {
+			isa = PBXGroup;
+			children = (
+				3C3C45BB21AB0E1D0040DCE9 /* Hangman */,
+				3C3C45D021AB0E1F0040DCE9 /* HangmanTests */,
+				3C3C45DB21AB0E1F0040DCE9 /* HangmanUITests */,
+				3C3C45E521AB0E1F0040DCE9 /* Hangman WatchKit App */,
+				3C3C45F421AB0E1F0040DCE9 /* Hangman WatchKit Extension */,
+				3C3C45BA21AB0E1D0040DCE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C3C45BA21AB0E1D0040DCE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C3C45B921AB0E1D0040DCE9 /* Hangman.app */,
+				3C3C45CD21AB0E1F0040DCE9 /* HangmanTests.xctest */,
+				3C3C45D821AB0E1F0040DCE9 /* HangmanUITests.xctest */,
+				3C3C45E121AB0E1F0040DCE9 /* Hangman WatchKit App.app */,
+				3C3C45F021AB0E1F0040DCE9 /* Hangman WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C3C45BB21AB0E1D0040DCE9 /* Hangman */ = {
+			isa = PBXGroup;
+			children = (
+				3C3C45BC21AB0E1D0040DCE9 /* AppDelegate.swift */,
+				3C3C45BE21AB0E1D0040DCE9 /* ViewController.swift */,
+				3C3C45C021AB0E1D0040DCE9 /* Main.storyboard */,
+				3C3C45C321AB0E1E0040DCE9 /* Assets.xcassets */,
+				3C3C45C521AB0E1E0040DCE9 /* LaunchScreen.storyboard */,
+				3C3C45C821AB0E1E0040DCE9 /* Info.plist */,
+			);
+			path = Hangman;
+			sourceTree = "<group>";
+		};
+		3C3C45D021AB0E1F0040DCE9 /* HangmanTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C3C45D121AB0E1F0040DCE9 /* HangmanTests.swift */,
+				3C3C45D321AB0E1F0040DCE9 /* Info.plist */,
+			);
+			path = HangmanTests;
+			sourceTree = "<group>";
+		};
+		3C3C45DB21AB0E1F0040DCE9 /* HangmanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C3C45DC21AB0E1F0040DCE9 /* HangmanUITests.swift */,
+				3C3C45DE21AB0E1F0040DCE9 /* Info.plist */,
+			);
+			path = HangmanUITests;
+			sourceTree = "<group>";
+		};
+		3C3C45E521AB0E1F0040DCE9 /* Hangman WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3C3C45E621AB0E1F0040DCE9 /* Interface.storyboard */,
+				3C3C45E921AB0E1F0040DCE9 /* Assets.xcassets */,
+				3C3C45EB21AB0E1F0040DCE9 /* Info.plist */,
+			);
+			path = "Hangman WatchKit App";
+			sourceTree = "<group>";
+		};
+		3C3C45F421AB0E1F0040DCE9 /* Hangman WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3C3C45F521AB0E1F0040DCE9 /* InterfaceController.swift */,
+				3C3C45F721AB0E1F0040DCE9 /* ExtensionDelegate.swift */,
+				3C3C45F921AB0E1F0040DCE9 /* NotificationController.swift */,
+				3C3C45FB21AB0E1F0040DCE9 /* ComplicationController.swift */,
+				3C3C45FD21AB0E200040DCE9 /* Assets.xcassets */,
+				3C3C45FF21AB0E200040DCE9 /* Info.plist */,
+				3C3C460021AB0E200040DCE9 /* PushNotificationPayload.apns */,
+			);
+			path = "Hangman WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C3C45B821AB0E1D0040DCE9 /* Hangman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C3C460B21AB0E200040DCE9 /* Build configuration list for PBXNativeTarget "Hangman" */;
+			buildPhases = (
+				3C3C45B521AB0E1D0040DCE9 /* Sources */,
+				3C3C45B621AB0E1D0040DCE9 /* Frameworks */,
+				3C3C45B721AB0E1D0040DCE9 /* Resources */,
+				3C3C460A21AB0E200040DCE9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C3C45E421AB0E1F0040DCE9 /* PBXTargetDependency */,
+			);
+			name = Hangman;
+			productName = Hangman;
+			productReference = 3C3C45B921AB0E1D0040DCE9 /* Hangman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C3C45CC21AB0E1F0040DCE9 /* HangmanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C3C460E21AB0E200040DCE9 /* Build configuration list for PBXNativeTarget "HangmanTests" */;
+			buildPhases = (
+				3C3C45C921AB0E1F0040DCE9 /* Sources */,
+				3C3C45CA21AB0E1F0040DCE9 /* Frameworks */,
+				3C3C45CB21AB0E1F0040DCE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C3C45CF21AB0E1F0040DCE9 /* PBXTargetDependency */,
+			);
+			name = HangmanTests;
+			productName = HangmanTests;
+			productReference = 3C3C45CD21AB0E1F0040DCE9 /* HangmanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C3C45D721AB0E1F0040DCE9 /* HangmanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C3C461121AB0E200040DCE9 /* Build configuration list for PBXNativeTarget "HangmanUITests" */;
+			buildPhases = (
+				3C3C45D421AB0E1F0040DCE9 /* Sources */,
+				3C3C45D521AB0E1F0040DCE9 /* Frameworks */,
+				3C3C45D621AB0E1F0040DCE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C3C45DA21AB0E1F0040DCE9 /* PBXTargetDependency */,
+			);
+			name = HangmanUITests;
+			productName = HangmanUITests;
+			productReference = 3C3C45D821AB0E1F0040DCE9 /* HangmanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3C3C45E021AB0E1F0040DCE9 /* Hangman WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C3C460721AB0E200040DCE9 /* Build configuration list for PBXNativeTarget "Hangman WatchKit App" */;
+			buildPhases = (
+				3C3C45DF21AB0E1F0040DCE9 /* Resources */,
+				3C3C460621AB0E200040DCE9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C3C45F321AB0E1F0040DCE9 /* PBXTargetDependency */,
+			);
+			name = "Hangman WatchKit App";
+			productName = "Hangman WatchKit App";
+			productReference = 3C3C45E121AB0E1F0040DCE9 /* Hangman WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3C3C45EF21AB0E1F0040DCE9 /* Hangman WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C3C460321AB0E200040DCE9 /* Build configuration list for PBXNativeTarget "Hangman WatchKit Extension" */;
+			buildPhases = (
+				3C3C45EC21AB0E1F0040DCE9 /* Sources */,
+				3C3C45ED21AB0E1F0040DCE9 /* Frameworks */,
+				3C3C45EE21AB0E1F0040DCE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hangman WatchKit Extension";
+			productName = "Hangman WatchKit Extension";
+			productReference = 3C3C45F021AB0E1F0040DCE9 /* Hangman WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C3C45B121AB0E1D0040DCE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Paul Krenn";
+				TargetAttributes = {
+					3C3C45B821AB0E1D0040DCE9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3C3C45CC21AB0E1F0040DCE9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3C3C45B821AB0E1D0040DCE9;
+					};
+					3C3C45D721AB0E1F0040DCE9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3C3C45B821AB0E1D0040DCE9;
+					};
+					3C3C45E021AB0E1F0040DCE9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3C3C45EF21AB0E1F0040DCE9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3C3C45B421AB0E1D0040DCE9 /* Build configuration list for PBXProject "Hangman" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C3C45B021AB0E1D0040DCE9;
+			productRefGroup = 3C3C45BA21AB0E1D0040DCE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C3C45B821AB0E1D0040DCE9 /* Hangman */,
+				3C3C45CC21AB0E1F0040DCE9 /* HangmanTests */,
+				3C3C45D721AB0E1F0040DCE9 /* HangmanUITests */,
+				3C3C45E021AB0E1F0040DCE9 /* Hangman WatchKit App */,
+				3C3C45EF21AB0E1F0040DCE9 /* Hangman WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C3C45B721AB0E1D0040DCE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3C45C721AB0E1E0040DCE9 /* LaunchScreen.storyboard in Resources */,
+				3C3C45C421AB0E1E0040DCE9 /* Assets.xcassets in Resources */,
+				3C3C45C221AB0E1D0040DCE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3C45CB21AB0E1F0040DCE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3C45D621AB0E1F0040DCE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3C45DF21AB0E1F0040DCE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3C45EA21AB0E1F0040DCE9 /* Assets.xcassets in Resources */,
+				3C3C45E821AB0E1F0040DCE9 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3C45EE21AB0E1F0040DCE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3C45FE21AB0E200040DCE9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C3C45B521AB0E1D0040DCE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3C45BF21AB0E1D0040DCE9 /* ViewController.swift in Sources */,
+				3C3C45BD21AB0E1D0040DCE9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3C45C921AB0E1F0040DCE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3C45D221AB0E1F0040DCE9 /* HangmanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3C45D421AB0E1F0040DCE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3C45DD21AB0E1F0040DCE9 /* HangmanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3C45EC21AB0E1F0040DCE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3C45FA21AB0E1F0040DCE9 /* NotificationController.swift in Sources */,
+				3C3C45FC21AB0E1F0040DCE9 /* ComplicationController.swift in Sources */,
+				3C3C45F821AB0E1F0040DCE9 /* ExtensionDelegate.swift in Sources */,
+				3C3C45F621AB0E1F0040DCE9 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C3C45CF21AB0E1F0040DCE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C3C45B821AB0E1D0040DCE9 /* Hangman */;
+			targetProxy = 3C3C45CE21AB0E1F0040DCE9 /* PBXContainerItemProxy */;
+		};
+		3C3C45DA21AB0E1F0040DCE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C3C45B821AB0E1D0040DCE9 /* Hangman */;
+			targetProxy = 3C3C45D921AB0E1F0040DCE9 /* PBXContainerItemProxy */;
+		};
+		3C3C45E421AB0E1F0040DCE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C3C45E021AB0E1F0040DCE9 /* Hangman WatchKit App */;
+			targetProxy = 3C3C45E321AB0E1F0040DCE9 /* PBXContainerItemProxy */;
+		};
+		3C3C45F321AB0E1F0040DCE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C3C45EF21AB0E1F0040DCE9 /* Hangman WatchKit Extension */;
+			targetProxy = 3C3C45F221AB0E1F0040DCE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C3C45C021AB0E1D0040DCE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C3C45C121AB0E1D0040DCE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C3C45C521AB0E1E0040DCE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C3C45C621AB0E1E0040DCE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3C3C45E621AB0E1F0040DCE9 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C3C45E721AB0E1F0040DCE9 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C3C460121AB0E200040DCE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C3C460221AB0E200040DCE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C3C460421AB0E200040DCE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BS5TKJU456;
+				INFOPLIST_FILE = "Hangman WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lab73.Hangman.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		3C3C460521AB0E200040DCE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BS5TKJU456;
+				INFOPLIST_FILE = "Hangman WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lab73.Hangman.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		3C3C460821AB0E200040DCE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BS5TKJU456;
+				IBSC_MODULE = Hangman_WatchKit_Extension;
+				INFOPLIST_FILE = "Hangman WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = lab73.Hangman.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		3C3C460921AB0E200040DCE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BS5TKJU456;
+				IBSC_MODULE = Hangman_WatchKit_Extension;
+				INFOPLIST_FILE = "Hangman WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = lab73.Hangman.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		3C3C460C21AB0E200040DCE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BS5TKJU456;
+				INFOPLIST_FILE = Hangman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lab73.Hangman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C3C460D21AB0E200040DCE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BS5TKJU456;
+				INFOPLIST_FILE = Hangman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lab73.Hangman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C3C460F21AB0E200040DCE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BS5TKJU456;
+				INFOPLIST_FILE = HangmanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lab73.HangmanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hangman.app/Hangman";
+			};
+			name = Debug;
+		};
+		3C3C461021AB0E200040DCE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BS5TKJU456;
+				INFOPLIST_FILE = HangmanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lab73.HangmanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hangman.app/Hangman";
+			};
+			name = Release;
+		};
+		3C3C461221AB0E200040DCE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BS5TKJU456;
+				INFOPLIST_FILE = HangmanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lab73.HangmanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hangman;
+			};
+			name = Debug;
+		};
+		3C3C461321AB0E200040DCE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BS5TKJU456;
+				INFOPLIST_FILE = HangmanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lab73.HangmanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hangman;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C3C45B421AB0E1D0040DCE9 /* Build configuration list for PBXProject "Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3C460121AB0E200040DCE9 /* Debug */,
+				3C3C460221AB0E200040DCE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C3C460321AB0E200040DCE9 /* Build configuration list for PBXNativeTarget "Hangman WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3C460421AB0E200040DCE9 /* Debug */,
+				3C3C460521AB0E200040DCE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C3C460721AB0E200040DCE9 /* Build configuration list for PBXNativeTarget "Hangman WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3C460821AB0E200040DCE9 /* Debug */,
+				3C3C460921AB0E200040DCE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C3C460B21AB0E200040DCE9 /* Build configuration list for PBXNativeTarget "Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3C460C21AB0E200040DCE9 /* Debug */,
+				3C3C460D21AB0E200040DCE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C3C460E21AB0E200040DCE9 /* Build configuration list for PBXNativeTarget "HangmanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3C460F21AB0E200040DCE9 /* Debug */,
+				3C3C461021AB0E200040DCE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C3C461121AB0E200040DCE9 /* Build configuration list for PBXNativeTarget "HangmanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3C461221AB0E200040DCE9 /* Debug */,
+				3C3C461321AB0E200040DCE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C3C45B121AB0E1D0040DCE9 /* Project object */;
+}
