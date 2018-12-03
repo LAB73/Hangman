@@ -7,22 +7,45 @@
 		<key>Hangman WatchKit App (Complication).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>21</integer>
 		</dict>
 		<key>Hangman WatchKit App (Notification).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>20</integer>
 		</dict>
 		<key>Hangman WatchKit App.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>19</integer>
 		</dict>
 		<key>Hangman.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>18</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3C3C45B821AB0E1D0040DCE9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C3C45CC21AB0E1F0040DCE9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C3C45D721AB0E1F0040DCE9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C3C45E021AB0E1F0040DCE9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

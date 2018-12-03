@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FEE1CE79C53247024200A3C /* Pods_HangmanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288429FCF6D6F9069CA54AFA /* Pods_HangmanUITests.framework */; };
 		3C3C45BD21AB0E1D0040DCE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C45BC21AB0E1D0040DCE9 /* AppDelegate.swift */; };
 		3C3C45BF21AB0E1D0040DCE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C45BE21AB0E1D0040DCE9 /* ViewController.swift */; };
 		3C3C45C221AB0E1D0040DCE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C45C021AB0E1D0040DCE9 /* Main.storyboard */; };
@@ -23,6 +24,15 @@
 		3C3C45FA21AB0E1F0040DCE9 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C45F921AB0E1F0040DCE9 /* NotificationController.swift */; };
 		3C3C45FC21AB0E1F0040DCE9 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C45FB21AB0E1F0040DCE9 /* ComplicationController.swift */; };
 		3C3C45FE21AB0E200040DCE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C45FD21AB0E200040DCE9 /* Assets.xcassets */; };
+		3C3C461521AB107B0040DCE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C3C461421AB107B0040DCE9 /* GoogleService-Info.plist */; };
+		3C3C461721AB14240040DCE9 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C461621AB14240040DCE9 /* Database.swift */; };
+		3C3C461921AB35420040DCE9 /* NewWordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C461821AB35420040DCE9 /* NewWordController.swift */; };
+		3C3C461B21AD7D3C0040DCE9 /* GuessWordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C461A21AD7D3C0040DCE9 /* GuessWordController.swift */; };
+		3C3C461D21AD8F030040DCE9 /* FinishedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C461C21AD8F030040DCE9 /* FinishedController.swift */; };
+		93EE7BC15D29900846C45A09 /* Pods_Hangman_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EBBDCC81A342EE2802460B7 /* Pods_Hangman_WatchKit_Extension.framework */; };
+		97475200E84811B771421907 /* Pods_Hangman_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF4B14EA1FD2E68D7D084A2 /* Pods_Hangman_WatchKit_App.framework */; };
+		B54E5B7AF40A4455CB948A80 /* Pods_HangmanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0914EE904FA4514A483DC9 /* Pods_HangmanTests.framework */; };
+		B8A0D764A34D05945598A596 /* Pods_Hangman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C70BEB745050247C2CBD5D /* Pods_Hangman.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +92,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		285C9A3A3F704DFE52CC92EB /* Pods-HangmanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HangmanUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HangmanUITests/Pods-HangmanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		288429FCF6D6F9069CA54AFA /* Pods_HangmanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HangmanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF4B14EA1FD2E68D7D084A2 /* Pods_Hangman_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hangman_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE762AA3EB81A7F898AA13F /* Pods-HangmanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HangmanTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HangmanTests/Pods-HangmanTests.release.xcconfig"; sourceTree = "<group>"; };
+		3AC1E9F9D68216ADEF0956CB /* Pods-HangmanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HangmanUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HangmanUITests/Pods-HangmanUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3C3C45B921AB0E1D0040DCE9 /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C3C45BC21AB0E1D0040DCE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C3C45BE21AB0E1D0040DCE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,13 +122,37 @@
 		3C3C45FD21AB0E200040DCE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C3C45FF21AB0E200040DCE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C3C460021AB0E200040DCE9 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3C3C461421AB107B0040DCE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3C3C461621AB14240040DCE9 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		3C3C461821AB35420040DCE9 /* NewWordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWordController.swift; sourceTree = "<group>"; };
+		3C3C461A21AD7D3C0040DCE9 /* GuessWordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessWordController.swift; sourceTree = "<group>"; };
+		3C3C461C21AD8F030040DCE9 /* FinishedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedController.swift; sourceTree = "<group>"; };
+		4EBBDCC81A342EE2802460B7 /* Pods_Hangman_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hangman_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C70BEB745050247C2CBD5D /* Pods_Hangman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hangman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F5F57D0E8CD091968B6F32 /* Pods-Hangman WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hangman WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hangman WatchKit Extension/Pods-Hangman WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		AE0914EE904FA4514A483DC9 /* Pods_HangmanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HangmanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0D9FCB0975DF34056E744B /* Pods-Hangman WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hangman WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hangman WatchKit App/Pods-Hangman WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		D0412FAE7CA78487A8A985C6 /* Pods-Hangman.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hangman.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hangman/Pods-Hangman.debug.xcconfig"; sourceTree = "<group>"; };
+		DF1C4FA86EB9E6787D52126F /* Pods-HangmanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HangmanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HangmanTests/Pods-HangmanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E42047DD62B317E0B20E3BEC /* Pods-Hangman WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hangman WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hangman WatchKit Extension/Pods-Hangman WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		EC9DAC0261281EAE685E8A9F /* Pods-Hangman WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hangman WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hangman WatchKit App/Pods-Hangman WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		EF3D344BCB83495175C9B7C5 /* Pods-Hangman.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hangman.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hangman/Pods-Hangman.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0285ED8146790510CCF48380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97475200E84811B771421907 /* Pods_Hangman_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3C3C45B621AB0E1D0040DCE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8A0D764A34D05945598A596 /* Pods_Hangman.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B54E5B7AF40A4455CB948A80 /* Pods_HangmanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FEE1CE79C53247024200A3C /* Pods_HangmanUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93EE7BC15D29900846C45A09 /* Pods_Hangman_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,12 +186,15 @@
 		3C3C45B021AB0E1D0040DCE9 = {
 			isa = PBXGroup;
 			children = (
+				3C3C461421AB107B0040DCE9 /* GoogleService-Info.plist */,
 				3C3C45BB21AB0E1D0040DCE9 /* Hangman */,
 				3C3C45D021AB0E1F0040DCE9 /* HangmanTests */,
 				3C3C45DB21AB0E1F0040DCE9 /* HangmanUITests */,
 				3C3C45E521AB0E1F0040DCE9 /* Hangman WatchKit App */,
 				3C3C45F421AB0E1F0040DCE9 /* Hangman WatchKit Extension */,
 				3C3C45BA21AB0E1D0040DCE9 /* Products */,
+				FD233478E2862D9BDF5FD3C2 /* Pods */,
+				D2D53661B446003695FBB234 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,6 +219,10 @@
 				3C3C45C321AB0E1E0040DCE9 /* Assets.xcassets */,
 				3C3C45C521AB0E1E0040DCE9 /* LaunchScreen.storyboard */,
 				3C3C45C821AB0E1E0040DCE9 /* Info.plist */,
+				3C3C461621AB14240040DCE9 /* Database.swift */,
+				3C3C461821AB35420040DCE9 /* NewWordController.swift */,
+				3C3C461A21AD7D3C0040DCE9 /* GuessWordController.swift */,
+				3C3C461C21AD8F030040DCE9 /* FinishedController.swift */,
 			);
 			path = Hangman;
 			sourceTree = "<group>";
@@ -220,6 +269,35 @@
 			path = "Hangman WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		D2D53661B446003695FBB234 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98C70BEB745050247C2CBD5D /* Pods_Hangman.framework */,
+				2AF4B14EA1FD2E68D7D084A2 /* Pods_Hangman_WatchKit_App.framework */,
+				4EBBDCC81A342EE2802460B7 /* Pods_Hangman_WatchKit_Extension.framework */,
+				AE0914EE904FA4514A483DC9 /* Pods_HangmanTests.framework */,
+				288429FCF6D6F9069CA54AFA /* Pods_HangmanUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD233478E2862D9BDF5FD3C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0412FAE7CA78487A8A985C6 /* Pods-Hangman.debug.xcconfig */,
+				EF3D344BCB83495175C9B7C5 /* Pods-Hangman.release.xcconfig */,
+				EC9DAC0261281EAE685E8A9F /* Pods-Hangman WatchKit App.debug.xcconfig */,
+				BB0D9FCB0975DF34056E744B /* Pods-Hangman WatchKit App.release.xcconfig */,
+				A9F5F57D0E8CD091968B6F32 /* Pods-Hangman WatchKit Extension.debug.xcconfig */,
+				E42047DD62B317E0B20E3BEC /* Pods-Hangman WatchKit Extension.release.xcconfig */,
+				DF1C4FA86EB9E6787D52126F /* Pods-HangmanTests.debug.xcconfig */,
+				2FE762AA3EB81A7F898AA13F /* Pods-HangmanTests.release.xcconfig */,
+				285C9A3A3F704DFE52CC92EB /* Pods-HangmanUITests.debug.xcconfig */,
+				3AC1E9F9D68216ADEF0956CB /* Pods-HangmanUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -227,10 +305,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C3C460B21AB0E200040DCE9 /* Build configuration list for PBXNativeTarget "Hangman" */;
 			buildPhases = (
+				39E666D8E08DBC4F44BA64B7 /* [CP] Check Pods Manifest.lock */,
 				3C3C45B521AB0E1D0040DCE9 /* Sources */,
 				3C3C45B621AB0E1D0040DCE9 /* Frameworks */,
 				3C3C45B721AB0E1D0040DCE9 /* Resources */,
 				3C3C460A21AB0E200040DCE9 /* Embed Watch Content */,
+				B3691041D57C78F355A4A9AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -246,6 +326,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C3C460E21AB0E200040DCE9 /* Build configuration list for PBXNativeTarget "HangmanTests" */;
 			buildPhases = (
+				F510E8E149B371E00BB10304 /* [CP] Check Pods Manifest.lock */,
 				3C3C45C921AB0E1F0040DCE9 /* Sources */,
 				3C3C45CA21AB0E1F0040DCE9 /* Frameworks */,
 				3C3C45CB21AB0E1F0040DCE9 /* Resources */,
@@ -264,6 +345,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C3C461121AB0E200040DCE9 /* Build configuration list for PBXNativeTarget "HangmanUITests" */;
 			buildPhases = (
+				930417F174391FF29659B482 /* [CP] Check Pods Manifest.lock */,
 				3C3C45D421AB0E1F0040DCE9 /* Sources */,
 				3C3C45D521AB0E1F0040DCE9 /* Frameworks */,
 				3C3C45D621AB0E1F0040DCE9 /* Resources */,
@@ -282,8 +364,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C3C460721AB0E200040DCE9 /* Build configuration list for PBXNativeTarget "Hangman WatchKit App" */;
 			buildPhases = (
+				8A62FFD2ADC8F6B23D386139 /* [CP] Check Pods Manifest.lock */,
 				3C3C45DF21AB0E1F0040DCE9 /* Resources */,
 				3C3C460621AB0E200040DCE9 /* Embed App Extensions */,
+				0285ED8146790510CCF48380 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -299,6 +383,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C3C460321AB0E200040DCE9 /* Build configuration list for PBXNativeTarget "Hangman WatchKit Extension" */;
 			buildPhases = (
+				CD2168E60D844A972EBF1A7A /* [CP] Check Pods Manifest.lock */,
 				3C3C45EC21AB0E1F0040DCE9 /* Sources */,
 				3C3C45ED21AB0E1F0040DCE9 /* Frameworks */,
 				3C3C45EE21AB0E1F0040DCE9 /* Resources */,
@@ -369,6 +454,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C3C45C721AB0E1E0040DCE9 /* LaunchScreen.storyboard in Resources */,
+				3C3C461521AB107B0040DCE9 /* GoogleService-Info.plist in Resources */,
 				3C3C45C421AB0E1E0040DCE9 /* Assets.xcassets in Resources */,
 				3C3C45C221AB0E1D0040DCE9 /* Main.storyboard in Resources */,
 			);
@@ -407,11 +493,168 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39E666D8E08DBC4F44BA64B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hangman-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A62FFD2ADC8F6B23D386139 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hangman WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		930417F174391FF29659B482 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HangmanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3691041D57C78F355A4A9AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hangman/Pods-Hangman-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hangman/Pods-Hangman-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD2168E60D844A972EBF1A7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hangman WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F510E8E149B371E00BB10304 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HangmanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C3C45B521AB0E1D0040DCE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C3C461B21AD7D3C0040DCE9 /* GuessWordController.swift in Sources */,
+				3C3C461D21AD8F030040DCE9 /* FinishedController.swift in Sources */,
+				3C3C461921AB35420040DCE9 /* NewWordController.swift in Sources */,
+				3C3C461721AB14240040DCE9 /* Database.swift in Sources */,
 				3C3C45BF21AB0E1D0040DCE9 /* ViewController.swift in Sources */,
 				3C3C45BD21AB0E1D0040DCE9 /* AppDelegate.swift in Sources */,
 			);
@@ -615,6 +858,7 @@
 		};
 		3C3C460421AB0E200040DCE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9F5F57D0E8CD091968B6F32 /* Pods-Hangman WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -637,6 +881,7 @@
 		};
 		3C3C460521AB0E200040DCE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42047DD62B317E0B20E3BEC /* Pods-Hangman WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -659,6 +904,7 @@
 		};
 		3C3C460821AB0E200040DCE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC9DAC0261281EAE685E8A9F /* Pods-Hangman WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -678,6 +924,7 @@
 		};
 		3C3C460921AB0E200040DCE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB0D9FCB0975DF34056E744B /* Pods-Hangman WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -697,6 +944,7 @@
 		};
 		3C3C460C21AB0E200040DCE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0412FAE7CA78487A8A985C6 /* Pods-Hangman.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -715,6 +963,7 @@
 		};
 		3C3C460D21AB0E200040DCE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3D344BCB83495175C9B7C5 /* Pods-Hangman.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -733,6 +982,7 @@
 		};
 		3C3C460F21AB0E200040DCE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF1C4FA86EB9E6787D52126F /* Pods-HangmanTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -754,6 +1004,7 @@
 		};
 		3C3C461021AB0E200040DCE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE762AA3EB81A7F898AA13F /* Pods-HangmanTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -775,6 +1026,7 @@
 		};
 		3C3C461221AB0E200040DCE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285C9A3A3F704DFE52CC92EB /* Pods-HangmanUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -795,6 +1047,7 @@
 		};
 		3C3C461321AB0E200040DCE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC1E9F9D68216ADEF0956CB /* Pods-HangmanUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
