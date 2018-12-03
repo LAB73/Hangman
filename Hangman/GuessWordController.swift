@@ -11,6 +11,7 @@ import UIKit
 class GuessWordController: UIViewController {
     @IBOutlet weak var guessingWord: UILabel!
     @IBOutlet weak var inputLetter: UITextField!
+    @IBOutlet weak var wrongAttemptsLabel: UILabel!
     
     let db = Database.init();
     
@@ -24,19 +25,23 @@ class GuessWordController: UIViewController {
     
     @IBAction func onlyOneLetter(_ sender: Any) {
         if(inputLetter.text != nil && inputLetter.text!.count > 1){
-            inputLetter.text = inputLetter.text!.dropFirst().description;
+            let temp = inputLetter.text!.dropFirst().description;
+            inputLetter.text = temp;
         }
     }
     
     @IBAction func checkContaining(_ sender: Any) {
+        
         if(inputLetter.text == nil){
             return
         }
+        let labelValue : String = inputLetter.text!;
+        inputLetter.text = "";
         
         db.getWord(){ object in
             
-            if(object.contains(self.inputLetter.text!)){
-                self.setNewLetters(newLetter: self.inputLetter.text!){object in
+            if(object.contains(labelValue)){
+                self.setNewLetters(newLetter: labelValue){object in
                     
                     if(object){
                         self.performSegue(withIdentifier: "finished", sender: sender);
@@ -45,6 +50,7 @@ class GuessWordController: UIViewController {
             
             }else{
                 self.db.wrongAttempt(){ ectBool in
+                    self.wrongAttemptsLabel.text = self.wrongAttemptsLabel.text! + " " + self.db.failCounter.description;
                     if(!ectBool){
                         self.performSegue(withIdentifier: "finished", sender: sender);
                     }

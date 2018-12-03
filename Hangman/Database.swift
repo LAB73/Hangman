@@ -12,6 +12,7 @@ import Firebase
 class Database {
     let db : Firestore;
     var HangmanWord = "";
+    var failCounter = 0;
     init() {
         db = Firestore.firestore();
     }
@@ -48,6 +49,7 @@ class Database {
     }
     
     func wrongAttempt(completion: @escaping (Bool) -> ()){
+        failCounter = (failCounter + 1);
         var oldNumber = 0;
         getAny(lookFor: "wrongAttempts") { object in
              oldNumber = object as? Int ?? 0;
@@ -83,6 +85,7 @@ class Database {
     }
     
     func resetFailedAttempts(){
+        failCounter = 0;
         let currentGroup = UserDefaults.standard.string(forKey: "currentGroup") ?? "";
         db.collection("Groups").document(currentGroup).setData([ "wrongAttempts": 0 ], merge: true);
     }

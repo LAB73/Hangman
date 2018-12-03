@@ -17,8 +17,10 @@ class NewWordController: UIViewController {
         }
         
         let db = Database.init();
-        db.setWord(hangmanWord: textField.text!)
+        db.setWord(hangmanWord: (textField.text?.uppercased())!)
         db.setGuessed(guessedWord: createGuessed(letters: textField.text!.count));
+        
+        Back(sender);
     }
     @IBAction func Back(_ sender: Any) {
         UserDefaults.standard.removeObject(forKey: "guessedWord");
